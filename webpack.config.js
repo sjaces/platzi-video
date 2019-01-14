@@ -5,7 +5,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = (env) => {
   const plugins = [
-    new ExtractTextPlugin("css/[name].[hash].css")
+    new ExtractTextPlugin("css/[name].css")
   ]
 
   if (env.NODE_ENV === 'production') {
@@ -26,7 +26,7 @@ module.exports = (env) => {
       chunkFilename: 'js/[id].[chunkhash].js',
     },
     devServer: {
-      port: 9000,
+      port: 3000,
     },
     module: {
       rules: [
