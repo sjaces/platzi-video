@@ -18,8 +18,9 @@ class Media extends Component {
                     height={160}
                     className="Media-image"
                     />
-                <h3 className="Media-title">¿Por qué aprender React?</h3>
-                <p className="Media-author">Sjaces!!!!!</p>
+                <h3 className="Media-title">¿Por qué aprender React? Porque ahí está la pasta</h3>
+                <p className="Media-author">Haz interfaces molonas y ya verás.</p>
+                <p>¡Testing some things!</p>
                     </div>
             </div>
         )
